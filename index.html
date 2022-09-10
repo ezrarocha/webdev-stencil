@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CS1300 HTML/CSS/JS Studio</title>
+    <title>CS1300 Bakery Studio</title>
     <!-- import javascript variables and functions -->
     <script src="app.js"></script>
     <!-- import CSS styles -->
@@ -12,15 +12,23 @@
   <body>
     <div id="cs1300-gallery">
       <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+      <!-- <p>Add your own images and styles!</p> -->
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
       <div class="gallery-item-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/baguette.jpg" alt="baguette">
+        <img class="gallery-item" src="./assets/cookie.jpg" alt="cookie">
+        <img class="gallery-item" src="./assets/croissant.jpg" alt="croissant">
+        <img class="gallery-item" src="./assets/donuts.jpg" alt="donut">
+        <img class="gallery-item" src="./assets/muffin.jpg" alt="muffin">
+        <img class="gallery-item" src="./assets/pie.jpg" alt="pie">
       </div>
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="">Press this button to display some fruit data</button> -->
+      <p> We also have sugary fruits! </p>
+
+      <button onclick="updatePage()">Show fruit :)</button>
+      <div id="test"></div>
     </div>
   </body>
 

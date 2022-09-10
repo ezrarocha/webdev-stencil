@@ -1,7 +1,15 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: pink;
 }
 
-.gallery-container {
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  width: 180px;
+  height: 180px;
 }
